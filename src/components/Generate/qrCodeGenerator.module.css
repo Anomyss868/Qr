@@ -1,0 +1,25 @@
+.input {
+    border-radius: 5px;
+    margin: 20px 0px;
+    padding: 5px;
+    font-size: 20px;
+    color: green;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    
+}
+
+.qr {
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    display: inline-block;
+}
