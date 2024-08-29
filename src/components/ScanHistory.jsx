@@ -1,5 +1,5 @@
 import { SCAN_DATA  } from "../contacts";
-import { Scanner } from '@yudiel/react-qr-scanner';
+
 
 export const ScanHistory = () => {
    
