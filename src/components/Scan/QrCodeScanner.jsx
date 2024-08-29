@@ -13,10 +13,11 @@ export const QrCodeScanner = () => {
     const [scanned, setScanned] = useState(null);
 
     const scanHandler = (result) => {
-        
+        if (!result) return;
 
         const prevData = JSON.parse(localStorage.getItem(SCAN_DATA) || '[]');
 
+        if (prevData.includes(result.text)) return;
 
         setScanned(result.text);
 
@@ -25,7 +26,7 @@ export const QrCodeScanner = () => {
             JSON.stringify([...prevData, result.text])
         );
     };
-
+    
     return (
         <div className={s.container}>
             <QrReader
