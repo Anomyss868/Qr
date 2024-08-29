@@ -30,7 +30,7 @@ export const QrCodeScanner = () => {
               constraints={{ facingMode: 'environment' }}
               scanDelay={500}
               onResult={scanHandler}
-              containerStyle={{ width: '500px' }}
+              containerStyle={{ width: '250px' }}
             />
         
             <p className={s.result}>{scanned}</p>
