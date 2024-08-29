@@ -2,6 +2,7 @@ import { useState } from 'react';
 import s from  './QrCodeScanner.module.css'
 import { SCAN_DATA } from '../../contacts';
 import { json } from 'react-router-dom';
+import { QrReader } from 'react-qr-reader';
 
 
 
