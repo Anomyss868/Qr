@@ -1,6 +1,6 @@
-import { SCAN_DATA  } from "../contacts";
-import { QRCodeSVG } from 'qrcode.react';
 
+import { QRCodeSVG } from 'qrcode.react';
+import { SCAN_DATA  } from "../contacts";
 
 export const ScanHistory = () => {
     const data = JSON.parse(localStorage.getItem(SCAN_DATA) || '[]');
