@@ -30,7 +30,7 @@ export const QrCodeScanner = () => {
         onResult={(result, error) => {
           console.log(result)
         }}
-       containerStyle={{ width: '300px', height: '300px' }}
+       containerStyle={{ width: '500px', height: '300px' }}
       />
             
             
