@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { QrReader } from 'react-qr-reader';
 import s from './QrCodeScanner.module.css';
 
-import { SCAN_DATA } from '../../constants';
+import { SCAN_DATA } from '../../contacts';
 
 
 
