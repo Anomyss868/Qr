@@ -6,9 +6,6 @@ import { SCAN_DATA } from '../../contacts';
 import { json } from 'react-router-dom';
 
 
-import { useState } from 'react';
-import { QrReader } from 'react-qr-reader';
-import s from './qrCodeScanner.module.css';
 
 
 
