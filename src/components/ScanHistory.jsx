@@ -1,4 +1,5 @@
 import { SCAN_DATA  } from "../contacts";
+import { QRCodeSVG } from 'qrcode.react';
 
 
 export const ScanHistory = () => {
