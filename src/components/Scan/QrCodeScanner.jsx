@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { QrReader } from 'react-qr-reader';
 import s from './QrCodeScanner.module.css';
-
+import { json } from 'react-router-dom';
 import { SCAN_DATA } from '../../contacts';
 
 
@@ -27,10 +27,10 @@ export const QrCodeScanner = () => {
     return (
         <div className={s.container}>
             <QrReader
-                constraints={{ facingMode: 'environment' }}
-                scanDelay={1000}
-                onResult={scanHandler}
-                containerStyle={{ width: '500px'}}
+              constraints={{ facingMode: 'environment' }}
+              scanDelay={500}
+              onResult={scanHandler}
+              containerStyle={{ width: '500px' }}
             />
         
             <p className={s.result}>{scanned}</p>
